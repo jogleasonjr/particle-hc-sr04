@@ -1,6 +1,6 @@
 # particle-hc-sr04
 
-Firmware for reading ultrasonic measurements from an HC-SR04 on a particle device.
+Firmware for reading ultrasonic measurements from an HC-SR04 on a Particle device.
 
 The firmware assigns the readings to `inches` and `cm` variables.
 
@@ -16,7 +16,8 @@ The firmware assigns the readings to `inches` and `cm` variables.
 
 ## Note
 
-You'll need to power the HC-SR04 externally with 5V. Undervolting it by using the Particle's 3.3V pin will interrupt the Particle's WiFi while we wait for the HC's trigger pin.
+* You'll need to power the HC-SR04 externally with 5V. Undervolting it by using the Particle's 3.3V pin will interrupt the Particle's WiFi while we wait for the HC's trigger pin.
+* Make sure to share the ground wires between the Particle's GND pin and the 5V source for the HC-SR04
 
 ## Someday/maybe
 
