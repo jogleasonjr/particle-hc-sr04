@@ -6,7 +6,7 @@ The firmware assigns the readings to `inches` and `cm` variables.
 
 ## To build/deploy/test
 
-1. Clone this repo
+1. `git clone https://github.com/jogleasonjr/particle-hc-sr04.git`
 
 2. `cd particle-hc-sr04` 
 
